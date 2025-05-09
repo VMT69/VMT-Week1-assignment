@@ -1,0 +1,43 @@
+
+.vertical {
+    width: 150px;
+    background-color: lightblue;
+    border: 1px solid black;
+  }
+  
+  .vertical a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .vertical a.active {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+  }
+  
+
+  .horizontal {
+    width: 350px;
+    background-color: lightgray;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  
+  .horizontal a {
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: blue;
+    border-right: 1px solid blue;
+  }
+  
+  .horizontal a.active {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+  }
+  

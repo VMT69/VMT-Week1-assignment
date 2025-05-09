@@ -1,0 +1,76 @@
+
+table {
+    width: 50%;
+    margin: auto;
+    border: 2px solid #3d9ca8;
+    border-radius: 12px;
+    border-spacing: 4px;
+    background-color: lightblue;
+  }
+  
+  th, td {
+    background-color: lightblue;
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 0 2px #3d9ca8;
+  }
+  
+
+  th:first-child { border-top-left-radius: 12px; }
+  th:last-child { border-top-right-radius: 12px; }
+  tr:last-child td:first-child { border-bottom-left-radius: 12px; }
+  tr:last-child td:last-child { border-bottom-right-radius: 12px; }
+  
+
+  .shapes {
+    width: 300px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .shape {
+    width: 60px;
+    height: 40px;
+    background: white;
+    border: 2px solid #9acd32;
+  }
+  
+  
+  .round1 {
+    border-radius: 4px;
+  }
+  
+  .round2 {
+    border-radius: 6px;
+  }
+
+  .round3 {
+    border-radius: 12px;
+  }
+
+  .round4 {
+    border-radius: 8px;
+  }
+
+  .round5 {
+    border-radius: 2px;
+  }
+
+  .round6 {
+    border-radius: 10px;
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+
+  .round7 {
+    border-radius: 3px;
+  }
+  
+  .round8 {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
